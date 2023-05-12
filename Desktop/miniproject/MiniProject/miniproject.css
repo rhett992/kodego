@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 223, 223);
+    height: 100vh;
+    display: flex;
+}
+
+.banner{
+    background: url('images/mini.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 11%;
+    color: whitesmoke;
+    isolation: isolate;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    background: black;
+    inset: 0;
+    z-index: -1;
+    opacity: .5;
+}
+.navbar-nav >.nav-item >.nav-link{
+    color: white;
+}
+
+.bgheader{
+    background-color: #00337C;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.bg{
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.form1 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;
+}
+
+.middlepara {
+    padding-left: 20%;
+}
+
+.listing{
+    margin-top: 100px;
+}
+
+.card{
+    margin-left: 500px;
+}
+
+.container{
+    height: auto;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.col-auto{
+    margin-top: 10px;
+    margin-left: -8px;
+}
+.featured{
+    height: auto;
+    margin-top:5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.max-auto{
+    justify-content: center;
+    align-content: center;
+
+}
+.forms-auto{
+    justify-content: center;
+    align-content: center;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    padding-left: 30%;  
+    padding-right: 20%; 
+    background-color: white; 
+}
+
+/* rent */
+.house1 {
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;    
+}
+.house2 {
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;    
+}
+
+.listing1 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;    
+}
+.listing2 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;    
+}
+.listing3 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;    
+}
+.listing4 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;    
+}
+.listing5 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;    
+}
+.listing6 {
+    width: 100%;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;    
+}
+
+.rent1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;    
+}
+.rent2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;    
+}
+.rent3 {
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;    
+}
+.rent4 {
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;    
+}
+.rent5 {
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;    
+}
+.rent6 {
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;    
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.Inquiry{
+    background: url('images/bg1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 11%;
+    color: whitesmoke;
+    isolation: isolate;
+}
+
+.Inquiry::after{
+    content: '';
+    position: absolute;
+    background: black;
+    inset: 0;
+    z-index: -1;
+    opacity: .5;
+}
+.Login {
+    width: 500px;
+    height: min-content;
+    padding: 20px;    
+    border-radius: 12px;
+}
+
+.bgfooter{
+    background-color: #00337C;
+}
